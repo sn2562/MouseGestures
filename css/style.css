@@ -1,0 +1,20 @@
+body {
+	/*要素選択をさせない*/
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	background: #2e373d;
+}
+
+#contents {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 300px;
+	height: 330px;
+}
